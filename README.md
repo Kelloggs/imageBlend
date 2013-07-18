@@ -12,3 +12,7 @@ python imageBlend pathDirectoryA pathDirectoryB splitLine bandWidth
 ```
 
 splitline denotes the x position, at which the two frames should be blended. bandWith denotes the range on the x axis which should be considered for alpha blending.
+
+Caveats:
+--------
+- The images in the folders have to be of equal size.
